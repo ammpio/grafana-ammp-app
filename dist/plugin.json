@@ -1,12 +1,7 @@
 {
   "type": "app",
-  "name": "Example",
-  "id": "grafana-example-app",
-
-  "pages": [
-    { "name": "Live stream", "component": "StreamPageCtrl", "role": "Editor"},
-    { "name": "Log view", "component": "LogsPageCtrl", "role": "Viewer"}
-  ],
+  "name": "AMMP Config",
+  "id": "grafana-ammp-app",
 
   "css": {
     "dark":  "css/dark.css",
@@ -14,12 +9,12 @@
   },
 
   "info": {
-    "description": "Example app for Grafana",
+    "description": "AMMP config app for Grafana",
     "author": {
       "name": "Raintank",
-      "url": "http://raintank.io"
+      "url": "http://www.ammp.io"
     },
-    "keywords": ["example app"],
+    "keywords": ["AMMP app"],
     "logos": {
       "small": "img/small_logo.png",
       "large": "img/large_logo.png"
@@ -31,9 +26,12 @@
     "version": "1.0.2",
     "updated": "2015-06-06"
   },
+  
 
   "includes": [
-    {"type": "dashboard", "name": "Example App Dashboard", "path": "dashboards/example_app_dashboard.json"},
+    {"type": "page", "name": "Assets", "component": "AssetPageCtrl", "role": "Viewer", "addToNav": true,  "defaultNav": true},
+    {"type": "page", "name": "Credentials", "component": "CredentialPageCtrl", "role": "Viewer", "addToNav": true,  "defaultNav": true},
+    {"type": "dashboard", "name": "Example App Dashboard"},
     {"type": "panel", "name": "Example App Panel"},
     {"type": "datasource", "name": "Example App Datasource"}
   ],

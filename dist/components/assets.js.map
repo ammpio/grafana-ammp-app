@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/components/assets.js"],"names":["AssetPageCtrl","templateUrl"],"mappings":";;;;;;;;;;;;;;;;4BACaA,a,GACZ,yBAAc;AAAA;AAAG,I;;;;AAElBA,iBAAcC,WAAd,GAA4B,wBAA5B","file":"assets.js","sourcesContent":["\nexport class AssetPageCtrl {\n\tconstructor() { }\n}\nAssetPageCtrl.templateUrl = 'components/assets.html';\n"]}

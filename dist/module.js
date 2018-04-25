@@ -1,23 +1,23 @@
 'use strict';
 
-System.register(['./components/logs', './components/stream', './components/config'], function (_export, _context) {
+System.register(['./components/assets', './components/credentials', './components/config'], function (_export, _context) {
   "use strict";
 
-  var LogsPageCtrl, StreamPageCtrl, ExampleAppConfigCtrl;
+  var AssetPageCtrl, CredentialPageCtrl, ExampleAppConfigCtrl;
   return {
-    setters: [function (_componentsLogs) {
-      LogsPageCtrl = _componentsLogs.LogsPageCtrl;
-    }, function (_componentsStream) {
-      StreamPageCtrl = _componentsStream.StreamPageCtrl;
+    setters: [function (_componentsAssets) {
+      AssetPageCtrl = _componentsAssets.AssetPageCtrl;
+    }, function (_componentsCredentials) {
+      CredentialPageCtrl = _componentsCredentials.CredentialPageCtrl;
     }, function (_componentsConfig) {
       ExampleAppConfigCtrl = _componentsConfig.ExampleAppConfigCtrl;
     }],
     execute: function () {
       _export('ConfigCtrl', ExampleAppConfigCtrl);
 
-      _export('StreamPageCtrl', StreamPageCtrl);
+      _export('AssetPageCtrl', AssetPageCtrl);
 
-      _export('LogsPageCtrl', LogsPageCtrl);
+      _export('CredentialPageCtrl', CredentialPageCtrl);
     }
   };
 });
