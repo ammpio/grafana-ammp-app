@@ -11,7 +11,7 @@
   "info": {
     "description": "AMMP config app for Grafana",
     "author": {
-      "name": "Raintank",
+      "name": "AMMP",
       "url": "http://www.ammp.io"
     },
     "keywords": ["AMMP app"],
@@ -20,8 +20,8 @@
       "large": "img/large_logo.png"
     },
     "links": [
-      {"name": "Project site", "url": "https://github.com/grafana/example-app"},
-      {"name": "License & Terms", "url": "https://github.com/grafana/example-app/blob/master/LICENSE"}
+      {"name": "Project site", "url": "https://github.com/ammpio/grafana-ammp-app"},
+      {"name": "License & Terms", "url": "https://github.com/ammpio/grafana-ammp-app/blob/master/LICENSE"}
     ],
     "version": "1.0.2",
     "updated": "2015-06-06"
